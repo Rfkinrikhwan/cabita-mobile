@@ -9,9 +9,12 @@
       "distribution": "internal"
     },
     "preview": {
-      "android": {}
+      "android": {
+        "buildType": "apk"
+      }
     },
     "production": {
+      "autoIncrement": true,
       "android": {
         "buildType": "app-bundle",
         "gradleCommand": ":app:bundleRelease"
@@ -20,7 +23,10 @@
   },
   "submit": {
     "production": {
-      "android": {}
+      "android": {
+        "releaseStatus": "completed",
+        "track": "production"
+      }
     }
   }
 }

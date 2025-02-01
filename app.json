@@ -2,7 +2,7 @@
   "expo": {
     "name": "Cabita",
     "slug": "cabita",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "orientation": "portrait",
     "icon": "./assets/images/adaptive-icon.png",
     "scheme": "myapp",
@@ -19,8 +19,7 @@
       },
       "package": "com.kitakale.cabita",
       "enableProguard": true,
-      "enableShrinkResources": true,
-      "versionCode": 2
+      "enableShrinkResources": true
     },
     "web": {
       "bundler": "metro",
