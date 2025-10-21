@@ -20,7 +20,7 @@
       "package": "com.kitakale.cabita",
       "targetSdkVersion": 35,
       "compileSdkVersion": 35,
-      "minSdkVersion": 21,
+      "minSdkVersion": 24,
       "enableProguard": true,
       "enableShrinkResources": true
     },
@@ -47,7 +47,7 @@
           "android": {
             "compileSdkVersion": 35,
             "targetSdkVersion": 35,
-            "minSdkVersion": 21,
+            "minSdkVersion": 24,
             "buildToolsVersion": "35.0.0"
           }
         }
