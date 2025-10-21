@@ -2,7 +2,7 @@
   "expo": {
     "name": "Cabita",
     "slug": "cabita",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "orientation": "portrait",
     "icon": "./assets/images/adaptive-icon.png",
     "scheme": "myapp",
@@ -18,6 +18,9 @@
         "foregroundImageSize": "cover"
       },
       "package": "com.kitakale.cabita",
+      "targetSdkVersion": 35,
+      "compileSdkVersion": 35,
+      "minSdkVersion": 21,
       "enableProguard": true,
       "enableShrinkResources": true
     },
@@ -35,6 +38,18 @@
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
+        }
+      ],
+      "expo-font",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "compileSdkVersion": 35,
+            "targetSdkVersion": 35,
+            "minSdkVersion": 21,
+            "buildToolsVersion": "35.0.0"
+          }
         }
       ]
     ],
