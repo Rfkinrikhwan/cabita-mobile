@@ -14,15 +14,9 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff",
-        "foregroundImageSize": "cover"
+        "backgroundColor": "#ffffff"
       },
-      "package": "com.kitakale.cabita",
-      "targetSdkVersion": 35,
-      "compileSdkVersion": 35,
-      "minSdkVersion": 24,
-      "enableProguard": true,
-      "enableShrinkResources": true
+      "package": "com.kitakale.cabita"
     },
     "web": {
       "bundler": "metro",
@@ -55,9 +49,6 @@
         }
       ]
     ],
-    "packagerOpts": {
-      "config": "metro.config.js"
-    },
     "assetBundlePatterns": [
       "assets/images/*"
     ],
